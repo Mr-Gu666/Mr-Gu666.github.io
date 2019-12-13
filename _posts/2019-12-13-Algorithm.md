@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "算法"
-categories: [acm, 算法， kmp]
-tags: [kmp]
+title: "Algorithm"
+categories: [acm, algorithm， kmp]
 ---
 
 ## KMP
