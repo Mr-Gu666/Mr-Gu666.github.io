@@ -6,7 +6,7 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).
 
-[GitHub]: http://github.com
+[GitHub]: (http://github.com)
 
 WTF???
 
