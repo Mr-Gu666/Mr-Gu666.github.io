@@ -2,6 +2,7 @@
 layout: post
 title: "Algorithm"
 categories: [acm, algorithm， kmp]
+tags: [kmp, algorithm, acm]
 ---
 
 ## KMP
