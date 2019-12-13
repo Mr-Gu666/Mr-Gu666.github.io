@@ -8,7 +8,7 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 http://github.com - automatic!
 
-[GitHub]: (http://github.com)
+[GitHub] (http://github.com).
 
 WTF???
 
