@@ -4,10 +4,12 @@ title: "Algorithm"
 tags: [acm, algorithm, kmp]
 ---
 
-<h1 id="catalogue">Algorithm</h1>
+<h1 name="catalogue">Algorithm</h1>
 <h2>-字符串</h2>
-<ul id="#kmp">-KMP</ul>
-<h3 id="kmp">KMP</h3>
+<ul><a href="#kmp">-KMP</a></ul>
+
+<h3 name="kmp">KMP</h3>
+
 ```c++
 const int N = 1e6+2;
 int next[N];
@@ -76,4 +78,4 @@ int KMP_Count(){
 }
 ```
 
-<p style="text-align: right" id="#catalogue"><-back</p>
+<p style="text-align: right"><a href="#catalogue"><-back</a></p>
