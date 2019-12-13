@@ -5,9 +5,13 @@ tags: [acm, algorithm, kmp]
 ---
 
 <h1><a name="catalogue">Algorithm</a></h1>
-<h2>-字符串</h2>
-
-<ul><a href="#kmp">-KMP</a></ul>
+<ul>
+	<h2>-字符串</h2>
+		<ul><a href="#kmp">-KMP</a></ul>
+	<h2>-动态规划</h2>
+    <ul><a href="#ZeroOnePack">-01背包</a></ul>
+    <ul><a href="#CompletePack">-完全背包</a></ul>
+</ul>
 
 <h3><a name="kmp">KMP</a></h3>
 
@@ -80,3 +84,40 @@ int KMP_Count(){
 ```
 
 <p style="text-align: right"><a href="#catalogue"><-back</a></p>
+
+<h3><a name="ZeroOnePack">01背包</a></h3>
+
+```c++
+//背包最大容积
+const int M = 2e5+5;
+//物品最多种类
+const int N = 1e5+5;
+//n个物体，背包m大小，c[]物体重量，w[]物体价值
+int dp[M],c[N],w[N],n,m;
+void ZeroOnePack(int cc,int ww){
+	for(int i=m;i>=cc;i--){
+		dp[i] = max(dp[i],dp[i-cc]+ww);
+	}
+}
+
+```
+
+<p style="text-align:right"><a href="#catalogue"><-back</a></p>
+
+<h3><a name="CompletePack">完全背包</a></h3>
+
+```c++
+//背包最大容量
+const int M = 10005;
+//物品种类
+const int N = 10005;
+int m,n,dp[M],c[N],w[N];
+void CompletePack(int cc,int ww){
+    for(int i=cc;i<=m;i++){
+        dp[i]=max(dp[i],dp[i-cc]+ww);
+    }
+}
+
+```
+
+<p style="text-align:right"><a href="#catalogue"><-back</a></p>
