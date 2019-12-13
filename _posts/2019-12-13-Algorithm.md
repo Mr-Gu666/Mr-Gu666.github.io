@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Algorithm"
-categories: [acm, algorithm, kmp]
+tags: [acm, algorithm, kmp]
 ---
 
-# Algorithm
+<h1 id="catalogue">Algorithm</h1>
 
-## KMP
+<h2>-字符串</h2>
+<ul id="#kmp">-KMP</ul>
+
+<h3 id="kmp">KMP</h3>
 
 ```c++
 const int N = 1e6+2;
@@ -75,4 +78,6 @@ int KMP_Count(){
 	return ans;
 }
 ```
+
+<p style="text-align:right" id="#catalogue"><-back</p>
 
