@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Algorithm"
-categories: [acm, algorithm， kmp]
+categories: [acm, algorithm, kmp]
 tags: [kmp, algorithm, acm]
 ---
 
