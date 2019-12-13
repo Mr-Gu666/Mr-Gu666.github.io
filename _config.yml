@@ -51,12 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-#Sidebar settings
-sidebar: true
-sidebar-about-description: 手和脑子必须有一个在键盘上
-sidebar-avatar: /assets/images/长颈鹿.JPG
-
-#Featured Tags
-featured-tags: true
-featured-condition-size: 0
