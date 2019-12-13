@@ -55,4 +55,4 @@ plugins:
 #Sidebar settings
 sidebar: true
 sidebar-about-description: 手和脑子必须有一个在键盘上
-sidebar-avatar:
+sidebar-avatar: /assets/images/长颈鹿.JPG
