@@ -5,10 +5,8 @@ tags: [acm, algorithm, kmp]
 ---
 
 <h1 id="catalogue">Algorithm</h1>
-
 <h2>-字符串</h2>
 <ul id="#kmp">-KMP</ul>
-
 <h3 id="kmp">KMP</h3>
 
 ```c++
@@ -79,5 +77,5 @@ int KMP_Count(){
 }
 ```
 
-<p style="text-align:right" id="#catalogue"><-back</p>
+<p align=right id="#catalogue"><-back</p>
 
