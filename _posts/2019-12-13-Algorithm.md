@@ -4,11 +4,12 @@ title: "Algorithm"
 tags: [acm, algorithm, kmp]
 ---
 
-<h1 name="catalogue">Algorithm</h1>
+<h1><a name="catalogue">Algorithm</a></h1>
 <h2>-字符串</h2>
+
 <ul><a href="#kmp">-KMP</a></ul>
 
-<h3 name="kmp">KMP</h3>
+<h3><a name="kmp">KMP</a></h3>
 
 ```c++
 const int N = 1e6+2;
