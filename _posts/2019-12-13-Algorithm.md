@@ -8,7 +8,6 @@ tags: [acm, algorithm, kmp]
 <h2>-字符串</h2>
 <ul id="#kmp">-KMP</ul>
 <h3 id="kmp">KMP</h3>
-
 ```c++
 const int N = 1e6+2;
 int next[N];
@@ -77,5 +76,4 @@ int KMP_Count(){
 }
 ```
 
-<p align=right id="#catalogue"><-back</p>
-
+<p style="text-align: right" id="#catalogue"><-back</p>
