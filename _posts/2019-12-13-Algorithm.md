@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Algorithm"
-tags: [acm, algorithm, kmp]
+tags: [acm, algorithm]
 ---
 
 <h1><a name="catalogue">Algorithm</a></h1>
@@ -14,7 +14,6 @@ tags: [acm, algorithm, kmp]
 </ul>
 
 <h3><a name="kmp">KMP</a></h3>
-
 ```c++
 const int N = 1e6+2;
 int next[N];
@@ -84,9 +83,7 @@ int KMP_Count(){
 ```
 
 <p style="text-align: right"><a href="#catalogue"><-back</a></p>
-
 <h3><a name="ZeroOnePack">01背包</a></h3>
-
 ```c++
 //背包最大容积
 const int M = 2e5+5;
@@ -103,9 +100,7 @@ void ZeroOnePack(int cc,int ww){
 ```
 
 <p style="text-align:right"><a href="#catalogue"><-back</a></p>
-
 <h3><a name="CompletePack">完全背包</a></h3>
-
 ```c++
 //背包最大容量
 const int M = 10005;
