@@ -6,12 +6,23 @@ tags: [acm, algorithm]
 
 <h1><a name="catalogue">Algorithm</a></h1>
 <ul>
-	<h2>-字符串</h2>
-		<ul><a href="#kmp">-KMP</a></ul>
-	<h2>-动态规划</h2>
-    <ul><a href="#ZeroOnePack">-01背包</a></ul>
-    <ul><a href="#CompletePack">-完全背包</a></ul>
+    <h2>
+        ·排序
+    </h2>
+    	<ul>
+            <a href="#quick_sort">·快排</a>
+    	</ul>
+	<h2>
+        ·字符串
+    </h2>
+		<ul>
+            <a href="#kmp">·KMP</a></ul>
+	<h2>·动态规划</h2>
+    	<ul><a href="#ZeroOnePack">·01背包</a></ul>
+    	<ul><a href="#CompletePack">·完全背包</a></ul>
 </ul>
+
+
 
 <h3><a name="kmp">KMP</a></h3>
 ```c++
@@ -113,6 +124,37 @@ void CompletePack(int cc,int ww){
     }
 }
 
+```
+
+<p style="text-align:right"><a href="#catalogue"><-back</a></p>
+
+<h3><a name="quick_sort">快排</a></h3>
+
+```c++
+void quicksort(int left,int right)
+{
+    int i,j,temp;
+    if(left>=right)
+        return;
+    temp=a[left];
+    i=left;
+    j=right;
+    while(i<j)
+    {
+        while(a[j]>=temp && j>i)
+            j--;
+        while(a[i]<=temp && i<j)
+            i++;
+        if(i<j)
+        {
+            swap(a[i],a[j]);
+        }
+    }
+    a[left]=a[i];
+    a[i]=temp;
+    quicksort(left,i-1);
+    quicksort(i+1,right);
+}
 ```
 
 <p style="text-align:right"><a href="#catalogue"><-back</a></p>
