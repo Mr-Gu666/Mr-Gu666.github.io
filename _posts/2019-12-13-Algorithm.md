@@ -7,20 +7,23 @@ tags: [acm, algorithm]
 <h1><a name="catalogue">Algorithm</a></h1>
 <ul>
     <h2>
+        `数学
+        <ul><a href="#gcd">·gcd</a></ul>
+        <ul><a href="#lcm">·lcm</a></ul>
+    </h2>
+    <h2>
         ·排序
     </h2>
-    	<ul>
-            <a href="#quick_sort">·快排</a>
-    	</ul>
+    	<ul><a href="#quick_sort">·快排</a></ul>
 	<h2>
         ·字符串
     </h2>
-		<ul>
-            <a href="#kmp">·KMP</a></ul>
+		<ul><a href="#kmp">·KMP</a></ul>
 	<h2>·动态规划</h2>
     	<ul><a href="#ZeroOnePack">·01背包</a></ul>
     	<ul><a href="#CompletePack">·完全背包</a></ul>
 </ul>
+
 
 
 
@@ -154,6 +157,30 @@ void quicksort(int left,int right)
     a[i]=temp;
     quicksort(left,i-1);
     quicksort(i+1,right);
+}
+```
+
+<p style="text-align:right"><a href="#catalogue"><-back</a></p>
+
+<h3>
+    <a name="gcd">gcd</a>
+</h3> 
+
+```c++
+int gcd(int a,int b){
+	return b==0?a:gcd(b,a%b);
+}
+```
+
+<p style="text-align:right"><a href="#catalogue"><-back</a></p>
+
+<h3>
+    <a name="lcm">lcm</a>
+</h3> 
+
+```c++
+int lcm(int a,int b){
+	return a/gcd(a,b)*b;
 }
 ```
 
